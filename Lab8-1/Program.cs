@@ -24,7 +24,7 @@ app.MapGet("/api/led/{state}", (string state) => {
 app.MapGet("/api/student", () => new {
     studentId = "YOUR_STUDENT_ID",
     studentName = "Phuwish",
-    faculty = "YOUR_FACULTY_AND_MAJOR",
+    faculty = "school of industrial education and technology computer technology",
     targetSensor = "Potentiometer",
     timestamp = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss")
 });
